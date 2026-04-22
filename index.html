@@ -61,6 +61,20 @@
       </div>
     </section>
 
+    <section class="output-section section">
+      <article class="output-card reveal">
+        <div class="output-preview">
+          <img src="output.png" alt="Student Tagger output folder management screen">
+        </div>
+        <div class="output-copy">
+          <p class="eyebrow">Output management</p>
+          <h2>Easy output management.</h2>
+          <p>The results are listed and sorted into folders, making every tagged batch easy to review and organize.</p>
+          <p>The output folders are easy to access, so yearbook editors can quickly find the photos they need after processing.</p>
+        </div>
+      </article>
+    </section>
+
     <section id="privacy" class="dark-section section">
       <div class="split">
         <div class="reveal">
@@ -77,50 +91,47 @@
             <li>Face recognition repo integration</li>
             <li>HTML frontend interface</li>
           </ul>
+          <div class="prerequisites">
+            <h3>Prerequisites</h3>
+            <ol>
+              <li>Python</li>
+              <li>
+                Python packages
+                <span>fastapi, uvicorn, jinja2, python-multipart, Pillow, numpy, setuptools&lt;82, dlib-bin on Windows, dlib on non-Windows, face_recognition_models</span>
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="workflow" class="section workflow-section">
       <div class="center-copy reveal">
-        <p class="eyebrow">Workflow</p>
-        <h2>Capture. Compare. Confirm.</h2>
-        <p>A single scroll tells the whole story, from adding school photos to reviewing student matches while saving time, reducing effort, and helping every student get included.</p>
+        <p class="eyebrow">Next steps</p>
+        <h2>Things to work on.</h2>
+        <p>Student Tagger already shows the main idea, but there are important improvements that can make it more accurate and useful for yearbook teams.</p>
       </div>
       <div class="steps">
         <article class="step reveal">
           <span>01</span>
-          <h3>Capture</h3>
-          <p>Upload photoshoots, candids, team pictures, and event galleries into one tagging flow so editors spend less time sorting by hand.</p>
+          <h3>Improve accuracy</h3>
+          <p>Refine the recognition process so the app can identify students more reliably across different lighting, angles, expressions, and photo quality. Right now, recognized faces are based on one directory photo for each student, so there is room to improve.</p>
         </article>
         <article class="step reveal">
           <span>02</span>
-          <h3>Compare</h3>
-          <p>The app checks student faces against saved yearbook roster profiles, cutting down repetitive search work across large photo sets.</p>
+          <h3>Add more features</h3>
+          <p>Add tools like recognizing any face on the user's screen, making Student Tagger useful beyond uploaded photo batches.</p>
         </article>
         <article class="step reveal">
           <span>03</span>
-          <h3>Confirm</h3>
-          <p>Show the best student match, confidence score, and next action so teams can catch missing students before the book is finished.</p>
+          <h3>Track photo data</h3>
+          <p>Record how many photos each student appears in and automatically recommend strong photo options for each student.</p>
         </article>
-      </div>
-    </section>
-
-    <section class="showcase section">
-      <div class="showcase-device reveal">
-        <div class="wide-screen">
-          <div class="wide-placeholder">Add app screenshot</div>
-          <div class="floating-result">
-            <span class="status-dot"></span>
-            <strong>Student identified</strong>
-            <small>Ready for review</small>
-          </div>
-        </div>
-      </div>
-      <div class="showcase-copy reveal">
-        <p class="eyebrow">Designed for presentation</p>
-        <h2>Less time searching. More students represented.</h2>
-        <p>Student Tagger gives yearbook teams a faster way to organize photos, reduce manual effort, and make sure more students appear in the final book.</p>
+        <article class="step reveal">
+          <span>04</span>
+          <h3>Go online</h3>
+          <p>Move Student Tagger online so photo data can be shared with the whole yearbook group and connected to the yearbook website.</p>
+        </article>
       </div>
     </section>
 
@@ -128,7 +139,7 @@
       <div class="final-copy reveal">
         <p class="eyebrow">Coming soon</p>
         <h2>Packaged app for macOS and Windows.</h2>
-        <p>Student Tagger will be available soon as a packaged desktop app for macOS and Windows. Add your screenshots, demo video, yearbook workflow details, and explain how it saves time, lowers effort, and helps include everyone in the yearbook.</p>
+        <p>Student Tagger will be available soon as packaged desktop versions for macOS and Windows, with no prerequisites needed and quick access for everyone on the yearbook team.</p>
       </div>
     </section>
   </main>
